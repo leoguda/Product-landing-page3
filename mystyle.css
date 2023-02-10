@@ -1,0 +1,228 @@
+#index-1{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-delicious-and-nice-solid-background-image_260334.jpg);
+    background-size:cover;
+  }
+  
+  header{
+      position:fixed;
+      top:0;
+      left:0;
+      background-color: rgba(251, 10, 10, 0.52);
+      width:100%;
+  }
+  nav{float:right; 
+  }
+  
+  ol li{
+      padding:30px;
+      list-style: none;
+      display:inline-block;
+      text-align:center;
+      text-decoration: none;
+  }
+  
+  .li-hover:hover {
+      color:black;
+      box-shadow:0 0 20px black, 0 0 10px black;
+      text-shadow:0 0 1px white;
+      border:0.1px white solid;
+  }
+  
+  .li-a{  border:solid black 0.5px;
+      border-radius: 35px;
+      padding:15px;
+      text-decoration: none;
+      color:rgb(205, 221, 227);
+      font-size:40px;
+  }
+  
+  #main-1{
+      padding-top: 250px;
+      margin:auto;
+      width:1000px;
+  }
+  
+  .index-text-div{
+  
+  border: solid 0px ;
+  
+  }
+  #index-text{
+      font-size: 40px;
+  }
+  .index-text{
+      text-shadow:0 0 10px black, 0 0 5px black;
+      padding:20px;
+      text-align: center;
+      color:white;
+      font-size: 20px;
+      line-height: 30px;
+  }
+  
+  
+  
+  hr{background-color: rgba(251, 10, 10, 0.52);
+      height: 5px;
+      width:30%;
+      border: 0px;
+  }
+  .insta-a-div{
+      margin-left:600px;
+  }
+  .insta-a{
+      font-family: sans-serif;
+      text-transform: capitalize;
+      font-weight: bold;
+      text-decoration: none;
+      color:rgb(6, 6, 60);
+  }
+  .insta-a:active{
+      margin-left:600px;
+      font-size:150%;
+      transition:all ease-in-out 600ms; 
+      color:transparent;
+  }
+  
+  .img-run {
+      width:50px;
+      height:50px;
+  }
+  .press-on{
+      transition:all ease-in-out 500ms;
+  }
+  
+  #service-1 {
+      background-image: url(https://c4.wallpaperflare.com/wallpaper/473/256/1023/simple-background-texture-minimalism-artwork-wallpaper-preview.jpg);
+      background-size:cover;
+  }
+  
+  #main-2{
+      padding-top: 250px;
+      margin:auto;
+      width:1500px;
+      margin-bottom: 100px;
+  }
+  
+  .image-1{
+      width:600px;
+      height: 300px;
+      border:1px solid hsla(120, 16%, 16%, 0.5);
+      border-radius: 6px;
+  }
+  
+  .main-2-text{
+  text-align: center;
+  font-size: 22px;
+  }
+  
+  .main-2-banners{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;    
+  }
+  .main-2-banner{
+      height:650px;
+      padding:20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 15px;
+      border-radius: 25px;
+      background-color: hsla(120, 16%, 16%, 0.1);
+      box-shadow: 0 0 14px rgb(110, 161, 130);
+      transition:all ease-in-out 500ms;
+  }
+  
+  .main-2-banner:hover {
+      border:0px solid black;
+      box-shadow: -10px 10px 50px black, -10px 10px 40px black;
+      cursor:pointer;
+      transition:all ease-in-out 500ms;
+  }
+  
+  .main-2-banner-text{
+    
+      font-size: 20px;
+     width:550px;
+  }
+  
+  .interested{
+      font-size: 28px;
+      transition:all ease-in-out 300ms;
+      letter-spacing: 5px;
+      font-weight: bold;
+  }
+  
+  .interested:hover{
+      text-shadow:0 0 10px rgb(5, 5, 5), 0 0 5px rgb(177, 206, 173);
+      letter-spacing: 7px;
+      transition:all ease-in-out 300ms;
+  }
+  
+  #contact-1{
+      background-image: url(https://c4.wallpaperflare.com/wallpaper/473/256/1023/simple-background-texture-minimalism-artwork-wallpaper-preview.jpg);
+      background-size:cover;
+  }
+  
+  #main-3{
+      padding-top: 250px;
+      margin:auto;
+      width:1500px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+  
+  .contact-info-div, .follow-news-form{
+      border: solid 0px black;
+      width: 500px;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      font-size: 20px;
+  }
+  
+  #text-input{
+      background-color: transparent;
+      border:2px rgb(46, 45, 45) solid;
+      border-left:0px;
+      border-right:0px;
+      border-left:0px;
+      height:30px;
+      text-align: center;
+      margin: 20px 0 20px 0;
+      width:300px;
+      
+  }
+  
+  #submit-input{
+      width:150px;
+      height: 35px;
+      border: 0px;
+      background-color: hsla(220, 46%, 50%, 0.7);
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      color:white;
+  }
+  
+  #submit-input:hover{
+      cursor: pointer;
+      background-color: hsla(220, 96%, 91%, 0.992);
+      color:black;
+  }
+  
+  .contact-info-a{
+      color:black;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all ease-in-out 220ms;
+  }
+  
+  .contact-info-a:hover{
+      color: white;
+      transition: all ease-in-out 220ms;
+  }
